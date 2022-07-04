@@ -12,6 +12,7 @@
 		A431867B2873438800DB249F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A431867A2873438800DB249F /* Assets.xcassets */; };
 		A431867E2873438800DB249F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A431867D2873438800DB249F /* Preview Assets.xcassets */; };
 		A43186852873443100DB249F /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43186842873443100DB249F /* ProgressBar.swift */; };
+		A431868828734AA900DB249F /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = A431868728734AA900DB249F /* p1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A431867A2873438800DB249F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A431867D2873438800DB249F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A43186842873443100DB249F /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		A431868728734AA900DB249F /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p1.png; path = ../../../../Desktop/p1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		A43186752873438400DB249F /* progressBar */ = {
 			isa = PBXGroup;
 			children = (
+				A431868628734A9B00DB249F /* Images */,
 				A43186762873438400DB249F /* progressBarApp.swift */,
 				A43186782873438400DB249F /* ContentView.swift */,
 				A43186842873443100DB249F /* ProgressBar.swift */,
@@ -68,6 +71,14 @@
 				A431867D2873438800DB249F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A431868628734A9B00DB249F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A431868728734AA900DB249F /* p1.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A431867E2873438800DB249F /* Preview Assets.xcassets in Resources */,
+				A431868828734AA900DB249F /* p1.png in Resources */,
 				A431867B2873438800DB249F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
