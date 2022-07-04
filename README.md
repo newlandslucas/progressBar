@@ -1,6 +1,7 @@
 <h1 align="center">Progress Bar</h1>
 
 ## About 
+Progress bar developed using Swift UI, with animation.
 
 ## Technologies
 
@@ -17,7 +18,7 @@
 
 ## Prints
 
-<img src="/progressBar/Images/p1.png" height="600" width="300"> 
+<img src="/progressBar/p1.png" height="600" width="300"> 
 
 
 ## Author
