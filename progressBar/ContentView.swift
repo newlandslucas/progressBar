@@ -8,9 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var percent: CGFloat = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 100) {
+            Text("\(Int(percent))%")
+                .font(.system(size: 40, weight: .bold))
+            
+            
+            ProgressBar(width: 300, height: 30, percent: percent, color1: Color.purple, color2: Color.blue)
+                .animation(.spring())
+            
+            Button {
+                percent = CGFloat.random(in: 0...100)
+            } label: {
+                Text("Generate Random Number")
+            }
+
+        }
     }
 }
 

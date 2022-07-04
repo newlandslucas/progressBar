@@ -55,9 +55,9 @@
 			children = (
 				A43186762873438400DB249F /* progressBarApp.swift */,
 				A43186782873438400DB249F /* ContentView.swift */,
+				A43186842873443100DB249F /* ProgressBar.swift */,
 				A431867A2873438800DB249F /* Assets.xcassets */,
 				A431867C2873438800DB249F /* Preview Content */,
-				A43186842873443100DB249F /* ProgressBar.swift */,
 			);
 			path = progressBar;
 			sourceTree = "<group>";
